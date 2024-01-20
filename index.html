@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move divs</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="blue" class="squares"></div>
+    <div id="green" class="squares"></div>
+    <div id="red" class="squares"></div>
+
+    <div id="controls" class="mainControls">
+        <div id="buttons">
+            <button onclick="control(-1,-1)"></button>
+            <button onclick="control(0,-1)"></button>
+            <button onclick="control(1,-1)"></button>
+            <button onclick="control(-1,0)"></button>
+            <button onclick="control(2,2)"></button>
+            <button onclick="control(1,0)"></button>
+            <button onclick="control(-1,1)"></button>
+            <button onclick="control(0,1)"></button>
+            <button onclick="control(1,1)"></button>
+        </div>
+        <div id="incrAndPos">
+            <div id="inputDiv">
+                <input id="input" type="number" value="50">   
+            </div>
+            <div id="pDiv">
+                <p id="coords"></p>
+            </div>
+            <button id="hideButton" onclick="hide()">Hide</button>
+        </div>
+    </div>
+</body>
+</html>

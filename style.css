@@ -1,0 +1,79 @@
+.squares{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    border-width: 3px;
+    /* transition:left 0.5s, top 0.5s; */
+    border-color: black;
+}
+#controls{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    z-index: 10;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkgray;
+}
+.mainControls{
+    float: right;    
+    right: 30px;
+    top: 30px;
+}
+#buttons{
+    width: 200px;
+    height: 200px;
+    position:relative;
+    z-index: 1;
+    left: 50px;
+    top: 25px;
+    border-radius: 10%;
+}
+#buttons button{
+    left: 6px;
+    top: 6px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: inline;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkgray;
+}
+#hideButton, #closeButton{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 21px;
+    scale: 1.4;
+}
+#incrAndPos{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+    left: 50px;
+    top: 30px;
+}
+#inputDiv{
+    position: relative;
+    left: 75px;
+    top: 15px;
+}
+#inputDiv input{
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkgray;
+}
+#pDiv{
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: black;
+    top: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
